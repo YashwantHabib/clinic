@@ -1,4 +1,4 @@
-backend runs fine but i couldnt get enpought time to complete frontend
+backend runs fine but i couldnt get enough time to complete frontend
 
 <img width="1920" height="1080" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/b230235f-a63a-43ac-8701-cd9fec0c6371" />
 

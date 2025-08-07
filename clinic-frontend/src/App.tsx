@@ -1,21 +1,29 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
-import MyBookings from "./pages/MyBookings";
 import Admin from "./pages/Admin";
+import { useAuth } from "./context/AuthContext";
 
 function App() {
+  const { user } = useAuth();
+
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Dashboard />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/my-bookings" element={<MyBookings />} />
-        <Route path="/admin" element={<Admin />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Navigate to="/login" />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+      <Route
+        path="/dashboard"
+        element={
+          user?.role === "patient" ? <Dashboard /> : <Navigate to="/login" />
+        }
+      />
+      <Route
+        path="/admin"
+        element={user?.role === "admin" ? <Admin /> : <Navigate to="/login" />}
+      />
+    </Routes>
   );
 }
 

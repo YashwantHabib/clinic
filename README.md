@@ -5,7 +5,7 @@ This is a full-stack appointment booking application for a small clinic, built a
 ## Live Application URLs
 
 * **Frontend URL**: [https://clinic-frontend-six.vercel.app](https://clinic-frontend-six.vercel.app)
-* **API URL**: `[https://clinic-backend-ik2b.onrender.com](https://clinic-backend-ik2b.onrender.com)`
+* **API URL**: [https://clinic-backend-ik2b.onrender.com](https://clinic-backend-ik2b.onrender.com)
 
 ## Test Credentials
 
@@ -14,8 +14,8 @@ This is a full-stack appointment booking application for a small clinic, built a
 
 ## Public Git Repository
 
-* **Repo URL Backend**: `[https://github.com/YashwantHabib/clinic-backend](https://github.com/YashwantHabib/clinic-backend)`
-* * **Repo URL Frontend**: `[https://github.com/YashwantHabib/clinic-frontend](https://github.com/YashwantHabib/clinic-frontend)`
+* **Repo URL Backend**: [https://github.com/YashwantHabib/clinic-backend](https://github.com/YashwantHabib/clinic-backend)
+* * **Repo URL Frontend**: [https://github.com/YashwantHabib/clinic-frontend](https://github.com/YashwantHabib/clinic-frontend)
 
 ---
 

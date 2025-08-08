@@ -4,7 +4,7 @@ This is a full-stack appointment booking application for a small clinic, built a
 
 ## Live Application URLs
 
-* **Frontend URL**: `[https://clinic-frontend-six.vercel.app](https://clinic-frontend-six.vercel.app)`
+* **Frontend URL**: [https://clinic-frontend-six.vercel.app](https://clinic-frontend-six.vercel.app)
 * **API URL**: `[https://clinic-backend-ik2b.onrender.com](https://clinic-backend-ik2b.onrender.com)`
 
 ## Test Credentials

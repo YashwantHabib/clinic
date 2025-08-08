@@ -7,7 +7,7 @@ const myBookings = express.Router();
 myBookings.get("/", authenticate, async (req: any, res) => {
   try {
     const bookings = await prisma.booking.findMany({
-      where: { userId: req.user.id },
+      where: { userId: req.user.userId },
       include: { slot: true },
     });
     res.json(bookings);

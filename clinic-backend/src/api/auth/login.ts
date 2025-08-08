@@ -32,8 +32,10 @@ const login = async (req: Request, res: Response) => {
       { expiresIn: "1h" }
     );
 
-    // Step 5: Send response
-    res.json({ token });
+    res.json({
+      token,
+      role: user.role,
+    });
   } catch (error) {
     console.error("Login error:", error);
     res.status(500).json({ error: "Internal server error" });

@@ -16,12 +16,22 @@ function App() {
       <Route
         path="/dashboard"
         element={
-          user?.role === "patient" ? <Dashboard /> : <Navigate to="/login" />
+          user?.role?.toUpperCase() === "PATIENT" ? (
+            <Dashboard />
+          ) : (
+            <Navigate to="/login" />
+          )
         }
       />
       <Route
         path="/admin"
-        element={user?.role === "admin" ? <Admin /> : <Navigate to="/login" />}
+        element={
+          user?.role?.toUpperCase() === "ADMIN" ? (
+            <Admin />
+          ) : (
+            <Navigate to="/login" />
+          )
+        }
       />
     </Routes>
   );

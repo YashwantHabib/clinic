@@ -7,6 +7,19 @@ This is a full-stack appointment booking application for a small clinic, built a
 * **Frontend URL**: [https://clinic-frontend-six.vercel.app](https://clinic-frontend-six.vercel.app)
 * **API URL**: [https://clinic-backend-ik2b.onrender.com](https://clinic-backend-ik2b.onrender.com)
 
+## Screenshots
+
+**Login**
+<img width="1919" height="964" alt="image" src="https://github.com/user-attachments/assets/bbc71e53-be2f-400d-a09a-92640a5a7b41" />
+**Register**
+<img width="1916" height="951" alt="image" src="https://github.com/user-attachments/assets/d0290dfa-18f4-411a-8a0c-2f39b0d56247" />
+**Ptient Slots**
+<img width="1894" height="956" alt="image" src="https://github.com/user-attachments/assets/7dd43f7b-2998-4ad2-9e95-767bb2a60d79" />
+**Patient booking**
+<img width="1917" height="945" alt="image" src="https://github.com/user-attachments/assets/8dffef8d-f8ef-4469-bb2c-ee3a86e8167d" />
+**Admin**
+<img width="1919" height="952" alt="image" src="https://github.com/user-attachments/assets/5f7166ae-db23-427b-879d-6be95f39c900" />
+
 ## Test Credentials
 
 * **Patient**: `patient@example.com` / `Passw0rd!`
